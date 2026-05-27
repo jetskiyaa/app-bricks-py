@@ -1,0 +1,15 @@
+{
+  "tag_prefix": "llamacpp",
+  "watch_paths": ["containers/llamacpp-runner/"],
+  "tag_latest": false,
+  "build_whl": false,
+  "update_compose": false,
+  "build_args": {
+    "LLAMA_CPP_URL": "https://github.com/robgee86/app-bricks-py/releases/download/llamacpp%2F20260522/llamacpp-cpu-20260522.tar.gz",
+    "LLAMA_CPP_DIGEST": "sha256:ee163f746e12e573e0668d7dbf2bb4a65213a78f62bebda7e79776f0ca3f5e07"
+  },
+  "sbom": {
+    "runtime_base": "python:3.13-slim"
+  },
+  "downstream": []
+}
